@@ -169,5 +169,6 @@ Developed for educational and research purposes.
 Uses standard steganography techniques taught in computer science.
 
 ---
-
-**Happy Hiding! 🔐**
+<div align="center">
+*If this helped you, drop a ⭐ on the repo.*
+</div>
