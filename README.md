@@ -2,6 +2,17 @@
 
 Complete Python-based Steganography application with a modern Web GUI for hiding secret messages in multimedia files using Flask.
 
+## Screenshots
+
+### Image Steganography
+![Image Steganography](assets/image.png)
+
+### Audio Steganography
+![Audio Steganography](assets/audio.png)
+
+### Video Steganography
+![Video Steganography](assets/video.png)
+
 ## Features
 
 - **Image Steganography**: Hide messages in PNG, JPG, JPEG, BMP images
@@ -48,7 +59,7 @@ Open `http://localhost:5000` in your browser.
 1. Go to the "Reveal Message" section in the Image tab.
 2. Upload the encoded PNG image.
 3. Click "Decode Message".
-4. Your secret message will be revealed in the result box!
+4. Your secret message will be revealed in the result box.
 
 ### Audio Steganography
 
@@ -64,7 +75,7 @@ Open `http://localhost:5000` in your browser.
 #### Decoding:
 1. Upload the encoded WAV file in the Decode section.
 2. Click "Decode Message".
-3. View your hidden message!
+3. View your hidden message.
 
 ### Video Steganography
 
@@ -80,7 +91,7 @@ Open `http://localhost:5000` in your browser.
 #### Decoding:
 1. Upload the encoded AVI video in the Decode section.
 2. Click "Decode Message".
-3. Extract your hidden message!
+3. Extract your hidden message.
 
 ## Technical Details
 
@@ -100,10 +111,11 @@ Uses binary delimiter `1111111111111110` to mark the end of the hidden message.
 
 ```
 steganography-project/
-│
-├── app.py    # Main application
-├── requirements.txt         # Dependencies
-└── README.md               # Documentation
+|
+|-- app.py                   # Main application
+|-- requirements.txt         # Dependencies
+|-- README.md                # Documentation
+|-- assets/                  # Project screenshots
 ```
 
 ## Important Notes
@@ -169,6 +181,7 @@ Developed for educational and research purposes.
 Uses standard steganography techniques taught in computer science.
 
 ---
+
 <div align="center">
-*If this helped you, drop a ⭐ on the repo.*
+*If this helped you, drop a star on the repo.*
 </div>
