@@ -169,19 +169,8 @@ message = "Hello Secret World!"
 3. Test with short messages first to understand the flow.
 4. Encoded files look identical to the originals to the naked eye.
 
-## Security Note
 
-This is for educational purposes. For real security needs:
-- Encrypt your message before hiding it.
-- Use strong passwords and additional security layers.
-
-## Credits
-
-Developed for educational and research purposes.
-Uses standard steganography techniques taught in computer science.
-
----
 
 <div align="center">
-*If this helped you, drop a star on the repo.*
+*If this helped you, drop a ⭐ on the repo.*
 </div>
